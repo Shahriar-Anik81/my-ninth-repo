@@ -1,0 +1,125 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Titillium Web', sans-serif;
+}
+/*
+font-family: 'Titillium Web', sans-serif;
+*/
+.banner {
+	background: #87509c;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 120px;
+}
+.banner .header{
+	width: 80%;
+    margin: auto;
+}
+.banner .header .logo{
+	width: 30%;
+	float: left;
+}
+.banner .header .menu{
+	width: 70%;
+	float: left;
+}
+.banner .header .menu ul{
+	list-style: none;
+	text-align: right;
+	margin-top: 7px;
+}
+.banner .header .menu ul li{
+	display: inline-block;
+}
+.banner .header .menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 8px;
+	font-size: 14px;
+	margin: 0px 4px;
+}
+.banner .header .menu ul li a:hover{
+	transition: .3s;
+	background: #643a79;
+	border-radius: 4px;
+}
+.banner .header .text{
+	clear: both;
+	text-align: center;
+}
+.banner .header .text h1{
+	
+	color: #fff;
+	text-align: center;
+	font-size: 35px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	line-height: 40px;
+	
+}
+.banner .header .text a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	background: #eb7d4b;
+	padding: 15px 50px;
+	border-radius: 4px;
+	border-bottom: 2px solid #c86a40;
+}
+.second{
+	background: #17c2a4;
+	padding: 100px 0px;
+	overflow: hidden;
+}
+.second .container{
+	width: 80%;
+	margin: auto;
+	
+}
+.second .container h2{
+	text-align: center;
+	margin: auto;
+	color: #fff;
+}
+.second .container .devider{
+	background: #14a58c;
+	height: 3px;
+	width: 50px;
+	margin: 7px auto;
+}
+.second .container p{
+	text-align: center;
+	color: #e0f7f3;
+	margin: auto;
+	margin-bottom: 33px;
+}
+.second .container .service_box, .one_box, .two_box, .three_box{
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+.second .container .one_box{
+	height: 100px;
+	width: 6%;
+	display: inline-block;
+}
+.second .container .two_box{
+	height: 100px;
+	width: 6%;
+	display: inline-block;
+}
+.second .container .three_box{
+	height: 100px;
+	width: 7%;
+	display: inline-block;
+}
+.second .container  .service_box img{
+	display: inline-block;
+}
+.second .container  .service_box h3{
+	color: #fff;
+	font-weight: bold;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
